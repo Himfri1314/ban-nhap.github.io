@@ -8,7 +8,7 @@
   </head>
     <style>
       body {
-        background-image: url('nền.jpg');
+        background-image: url('cute.jpg');
             background-size: cover;        /* Phủ toàn màn hình */
             background-position: center;   /* Canh giữa ảnh */
             background-repeat: no-repeat;  /* Không lặp lại */
