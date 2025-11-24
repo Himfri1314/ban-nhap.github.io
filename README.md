@@ -87,5 +87,3 @@
             <img src="Quỳnh Như.png" class="avatar">
             <a href="trangchu" style="text-decorating: none; color: dark blue; padding: 0 10px;">Trần Lê Quỳnh Như</a>
         </div>
-</body>
-</html>
