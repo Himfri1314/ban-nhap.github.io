@@ -13,7 +13,20 @@
         <a href="tailieu" style="text-decorating: none; color: white; padding: 0 10px;">Tài liệu</a>
         <a href="lienhe" style="text-decorating: none; color: white; padding: 0 10px;">Liên hệ</a>
       </div>
+  </header>
+  </body>
+  <body>
+     <!-- Banner -->
+    <div class="banner">
+        <h1 style="text-align:center;text-decorating: none; color: white; padding: 0 30px;">BÁO CÁO TIN HỌC</h1>
+    </div>
+  </body>
     <style>
+      body {
+    margin: 0;
+    font-family: 'Times New Roman';
+    background-color: #f2f2f2;
+}
       /* Banner nền ảnh */
 .banner {
     width: 100%;
@@ -32,12 +45,6 @@
     font-weight: bold;
 }
       </style>
-    <div id="banner">
-      <div class="box-left">
-       <h1 style="text-align:center;text-decorating: none; color: white; padding: 0 30px;">BÁO CÁO TIN HỌC</h1>
-      </div>
-    </div>
-  </header>
   <div id="wp-products">
     <h1 style="text-align:center;text-decorating: none; color: black blue; padding: 0 30px;">THÀNH VIÊN</h1>
   </div>
