@@ -15,17 +15,51 @@
       </div>
     <style>
       body {
-        background-image: url('cute1.jpg');
+        background-image: url('cute.jpg');
             background-size: cover;        /* Phủ toàn màn hình */
             background-position: center;   /* Canh giữa ảnh */
             background-repeat: no-repeat;  /* Không lặp lại */
       }
     </style>
-<div id="banner">
+    <div id="banner">
       <div class="box-left">
        <h1 style="text-align:center;">BÁO CÁO TIN HỌC</h1>
+      </div>
     </div>
   </header>
+  <style>
+  body {
+  /* Khối trắng chứa chữ – tách ra hoàn toàn */
+  .text-box {
+    background: white;
+    width: 70%;
+    margin: 120px auto 0; /* đẩy xuống dưới để tách khỏi nền */
+    padding: 60px 40px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .text-box h2 {
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin: 10px 0;
+  }
+
+  .text-box p {
+    width: 70%;
+    margin: auto;
+    line-height: 1.6;
+    color: #444;
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+<!-- KHỐI CHỮ TÁCH RA -->
+<div class="text-box">
+  <span>THÀNH VIÊN</span>
+  <h2>NHÓM 1 (12 VĂN)</h2>
+</div>
   <style>
         /* Tiêu đề */
 .title {
@@ -35,6 +69,7 @@
     font-weight: 700;
     color: #1a365f;
 }
+
 /* 4 thẻ */
 .container {
     margin-top: 40px;
@@ -42,6 +77,7 @@
     justify-content: center;
     gap: 40px;
 }
+
 /* Khung thông tin */
 .card {
     width: 330px;
@@ -52,9 +88,11 @@
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     transition: 0.3s;
 }
+
 .card:hover {
     transform: translateY(-5px);
 }
+
 .card h3 {
     margin-top: 10px;
     font-size: 22px;
@@ -64,7 +102,7 @@
 </style>
   <body>
     <div class="background"></div>
-    <h2 class="title">Nhóm 1 (12 Văn)</h2>
+    <h2 style="text-align:center;">NHÓM 1 (12 VĂN)</h2>
     <div class="container">
         <div class="card">
             <img src="Phương Duyên.png" class="avatar">
