@@ -14,10 +14,11 @@
         <a href="lienhe" style="text-decorating: none; color: white; padding: 0 10px;">Liên hệ</a>
       </div>
     <style>
-      .banner {
+      /* Banner nền ảnh */
+.banner {
     width: 100%;
-    height: 250px;
-    background-image: url('cute1.jpg');
+    height: 230px;
+    background-image: url('cute.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -27,7 +28,7 @@
 .banner h1 {
     color: white;
     font-size: 40px;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     font-weight: bold;
 }
       </style>
