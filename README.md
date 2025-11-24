@@ -5,56 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wed báo cáo tin </title>
     <style>
-        * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-body {
-    background: #f0f0f0;
-}
-
-/* Căn hàng ngang */
-.box-container {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 50px;
-}
-
-/* Khung trắng bo góc */
-.box {
-    width: 250px;
-    padding: 20px;
-    background: white;
-    border-radius: 20px;
+        /* Tiêu đề */
+.title {
     text-align: center;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-/* Ảnh tròn */
-.avatar {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 10px;
-    border: 4px solid #87bfff;
-}
-
-/* Tên dưới avatar */
-.box p {
-    font-size: 18px;
-    font-weight: 600;
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 700;
     color: #1a365f;
 }
+
+/* 3 thẻ */
+.container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* Khung thông tin */
+.card {
+    width: 330px;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Ảnh đại diện */
+.avatar {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px solid #9ac5ff;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin-top: 10px;
+    font-size: 22px;
+    color: #1a365f;
+    font-weight: 600;
+}
 </style>
-</body>
 <body>
     <div class="background"></div>
-    <h2 class="title">Nhóm 1 (12 Văn)</h2>
+    <h2 class="title">NHÓM 1 (12 VĂN)>
     <div class="container">
         <div class="card">
             <img src="Phương Duyên.png" class="avatar">
@@ -72,6 +74,3 @@ body {
             <img src="Quỳnh Như.png" class="avatar">
             <a href="trangchu" style="text-decorating: none; color: dark blue; padding: 0 10px;">Trần Lê Quỳnh Như</a>
         </div>
-</body>
-</head>
-</html>
