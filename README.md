@@ -21,11 +21,21 @@
             background-repeat: no-repeat;  /* Không lặp lại */
       }
     </style>
-    <div id="banner">
-      <div class="box-left">
-       <h1 style="text-decorating: none; color: white; padding: 0 10px;">BÁO CÁO TIN HỌC</h1>
-      </div>
-    </div>
+       <div class="box">
+  BÁO CÁO TIN HỌC
+</div>
+<style>
+  .box {
+    width: 300px;           /* kích thước khung */
+    height: 150px;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center; /* giữa ngang */
+    align-items: center;     /* giữa dọc */
+    font-size: 24px;         /* chỉnh cỡ chữ */
+    border-radius: 10px;
+  }
+</style>
   </header>
   <style>
         /* Tiêu đề */
@@ -36,7 +46,6 @@
     font-weight: 700;
     color: #1a365f;
 }
-
 /* 4 thẻ */
 .container {
     margin-top: 40px;
@@ -44,7 +53,6 @@
     justify-content: center;
     gap: 40px;
 }
-
 /* Khung thông tin */
 .card {
     width: 330px;
@@ -55,11 +63,9 @@
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     transition: 0.3s;
 }
-
 .card:hover {
     transform: translateY(-5px);
 }
-
 .card h3 {
     margin-top: 10px;
     font-size: 22px;
