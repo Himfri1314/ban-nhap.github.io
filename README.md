@@ -1,10 +1,4 @@
-<html lang="vi">
-  <head>
-    <meta charset = "UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-  <header>
+<header>
      <div style="background-color: #9FADEA; padding: 10px;">
         <a href="trangchu" style="text-decorating: none; color: white; padding: 0 10px;">Trang chủ</a>
         <a href="thanhvien" style="text-decorating: none; color: white; padding: 0 10px;">Thành viên</a>
