@@ -13,26 +13,22 @@
         <a href="tailieu" style="text-decorating: none; color: white; padding: 0 10px;">Tài liệu</a>
         <a href="lienhe" style="text-decorating: none; color: white; padding: 0 10px;">Liên hệ</a>
       </div>
-     <div class="khung-nen"></div>
-     <img src="cute1.jpg" alt="anhnen">
     <style>
-.image-box {
-    position: relative;      /* cho phép đặt chữ lên trên ảnh */
-    width: 300px;            /* bạn đổi tùy ý */
-}
-.img {
+      .banner {
     width: 100%;
-    border-radius: 20px;     /* nếu bạn muốn bo góc */
+    height: 250px;
+    background-image: url('cute1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.text {
-    position: absolute;      /* đè lên ảnh */
-    bottom: 20px;            /* khoảng cách từ dưới lên */
-    left: 50%;               /* căn ngang giữa */
-    transform: translateX(-50%);
-    color: white;            /* màu chữ */
-    font-size: 22px;
-    font-weight: 700;
-    text-shadow: 2px 2px 6px rgba(0,0,0,0.7); /* giúp chữ nổi bật */
+.banner h1 {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: bold;
 }
       </style>
     <div id="banner">
