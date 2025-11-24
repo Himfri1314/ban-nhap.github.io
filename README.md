@@ -13,10 +13,8 @@
         <a href="tailieu" style="text-decorating: none; color: white; padding: 0 10px;">Tài liệu</a>
         <a href="lienhe" style="text-decorating: none; color: white; padding: 0 10px;">Liên hệ</a>
       </div>
-    <style>
       <div class="khung-nen"></div>
      <img src="cute1.jpg" alt="anhnen">
-    </style>
     <div id="banner">
       <div class="box-left">
        <h1 style="text-align:center;text-decorating: none; color: white; padding: 0 30px;">BÁO CÁO TIN HỌC</h1>
