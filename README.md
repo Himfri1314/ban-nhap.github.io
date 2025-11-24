@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wed báo cáo tin </title>
     <style>
-* {
+        * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -50,7 +50,13 @@ body {
     font-weight: 600;
     color: #1a365f;
 }
-<div class="card">
+</style>
+</body>
+<body>
+    <div class="background"></div>
+    <h2 class="title">Nhóm 1 (12 Văn)</h2>
+    <div class="container">
+        <div class="card">
             <img src="Phương Duyên.png" class="avatar">
             <a href="trangchu" style="text-decorating: none; color: dark blue; padding: 0 10px;">Nguyễn Ngọc Phương Duyên</a>
         </div>
@@ -66,3 +72,6 @@ body {
             <img src="Quỳnh Như.png" class="avatar">
             <a href="trangchu" style="text-decorating: none; color: dark blue; padding: 0 10px;">Trần Lê Quỳnh Như</a>
         </div>
+</body>
+</head>
+</html>
