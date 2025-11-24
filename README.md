@@ -15,7 +15,7 @@
       </div>
     <style>
       body {
-        background-image: url('cute.jpg');
+        background-image: url('cute1.jpg');
             background-size: cover;        /* Phủ toàn màn hình */
             background-position: center;   /* Canh giữa ảnh */
             background-repeat: no-repeat;  /* Không lặp lại */
@@ -23,43 +23,14 @@
     </style>
     <div id="banner">
       <div class="box-left">
-       <h1 style="text-align:center;">BÁO CÁO TIN HỌC</h1>
+       <h1 style="text-align:center;text-decorating: none; color: white; padding: 0 30px;">BÁO CÁO TIN HỌC</h1>
       </div>
     </div>
   </header>
-  <style>
-  body {
-  /* Khối trắng chứa chữ – tách ra hoàn toàn */
-  .text-box {
-    background: white;
-    width: 70%;
-    margin: 120px auto 0; /* đẩy xuống dưới để tách khỏi nền */
-    padding: 60px 40px;
-    text-align: center;
-    border-radius: 10px;
-  }
-
-  .text-box h2 {
-    font-size: 40px;
-    letter-spacing: 5px;
-    margin: 10px 0;
-  }
-
-  .text-box p {
-    width: 70%;
-    margin: auto;
-    line-height: 1.6;
-    color: #444;
-    font-size: 14px;
-  }
-</style>
-</head>
-<body>
-<!-- KHỐI CHỮ TÁCH RA -->
-<div class="text-box">
-  <span>THÀNH VIÊN</span>
-  <h2>NHÓM 1 (12 VĂN)</h2>
-</div>
+  <div id="wp-products">
+    <h1>THÀNH VIÊN</h1>
+    <h2>NHÓM 1 (12 VĂN)</h2>
+  </div>
   <style>
         /* Tiêu đề */
 .title {
@@ -102,7 +73,6 @@
 </style>
   <body>
     <div class="background"></div>
-    <h2 style="text-align:center;">NHÓM 1 (12 VĂN)</h2>
     <div class="container">
         <div class="card">
             <img src="Phương Duyên.png" class="avatar">
