@@ -27,9 +27,10 @@
       </div>
     </div>
   </header>
+    <div id="wp-products">
+      <h2>THÀNH VIÊN NHÓM 1</h2>
   <body>
     <div class="background"></div>
-    <h2 class="title">Nhóm 1 (12 Văn)</h2>
     <div class="container">
         <div class="card">
             <img src="Phương Duyên.png" class="avatar">
