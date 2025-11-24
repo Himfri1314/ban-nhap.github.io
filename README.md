@@ -13,8 +13,14 @@
         <a href="tailieu" style="text-decorating: none; color: white; padding: 0 10px;">Tài liệu</a>
         <a href="lienhe" style="text-decorating: none; color: white; padding: 0 10px;">Liên hệ</a>
       </div>
-      <div class="khung-nen"></div>
-     <img src="cute1.jpg" alt="anhnen">
+     <style>
+      body {
+        background-image: url('cute1.jpg');
+            background-size: cover;        /* Phủ toàn màn hình */
+            background-position: center;   /* Canh giữa ảnh */
+            background-repeat: no-repeat;  /* Không lặp lại */
+      }
+    </style>
     <div id="banner">
       <div class="box-left">
        <h1 style="text-align:center;text-decorating: none; color: white; padding: 0 30px;">BÁO CÁO TIN HỌC</h1>
