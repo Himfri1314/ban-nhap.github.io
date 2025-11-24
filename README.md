@@ -14,7 +14,7 @@
     color: #1a365f;
 }
 
-/* 3 thẻ */
+/* 4 thẻ */
 .container {
     margin-top: 40px;
     display: flex;
@@ -56,7 +56,7 @@
 </style>
 <body>
     <div class="background"></div>
-    <h2 class="title">NHÓM 1 (12 VĂN)>
+    <h2 class="title">NHÓM 1 (12 VĂN)></h2>
     <div class="container">
         <div class="card">
             <img src="Phương Duyên.png" class="avatar">
