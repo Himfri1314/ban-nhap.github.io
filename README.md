@@ -3,11 +3,6 @@
     <meta charset = "UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
-  <style>
-  .site-title, .page-title, header h1, .navbar-brand {
-    display: none !important;
-}
-    </style>
   <body>
 <header>
      <div style="background-color: #9FADEA; padding: 10px;">
