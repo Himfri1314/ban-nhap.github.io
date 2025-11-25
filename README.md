@@ -6,10 +6,10 @@
   <body>
 <header>
      <div style="background-color: #9FADEA; padding: 10px;">
-        <a href="https://himfri1314.github.io/ban-nhap.github.io/#" style="text-decorating: none; color: white; padding: 0 10px;">Trang chủ</a>
-        <a href="https://himfri1314.github.io/ban-nhap.github.io/#" style="text-decorating: none; color: white; padding: 0 10px;">Thành viên</a>
-        <a href="https://himfri1314.github.io/ban-nhap.github.io/#" style="text-decorating: none; color: white; padding: 0 10px;">Tài liệu</a>
-        <a href="https://himfri1314.github.io/ban-nhap.github.io/#" style="text-decorating: none; color: white; padding: 0 10px;">Liên hệ</a>
+        <a href="https://himfri1314.github.io/Tinhoc_nhom1_12V.github.io/" style="text-decorating: none; color: white; padding: 0 10px;">Trang chủ</a>
+        <a href="https://himfri1314.github.io/Tinhoc_nhom1_12V.github.io/" style="text-decorating: none; color: white; padding: 0 10px;">Thành viên</a>
+        <a href="https://himfri1314.github.io/Tinhoc_nhom1_12V.github.io/" style="text-decorating: none; color: white; padding: 0 10px;">Tài liệu</a>
+        <a href="https://himfri1314.github.io/Tinhoc_nhom1_12V.github.io/" style="text-decorating: none; color: white; padding: 0 10px;">Liên hệ</a>
       </div>
   </header>
   </body>
