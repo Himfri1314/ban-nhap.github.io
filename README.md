@@ -211,11 +211,11 @@
       <section class="panel">
         <nav class="list" aria-label="Danh sách bài">
           <!-- Lặp các item giống screenshot -->
-          <a class="item" href="#"><span class="marker"></span><span class="label">Bài 7: HTML VÀ CẤU TRÚC TRANG WEB</span></a>
-          <a class="item" href="#"><span class="marker"></span><span class="label">Bài 8: ĐỊNH DẠNG VĂN BẢN</span></a>
-          <a class="item" href="#"><span class="marker"></span><span class="label">Bài 9: TẠO DANH SÁCH, BẢNG</span></a>
-          <a class="item" href="#"><span class="marker"></span><span class="label">Bài 10: TẠO LIÊN KẾT</span></a>
-          <a class="item" href="#"><span class="marker"></span><span class="label">Bài 11: CHÈN TỆP ĐA PHƯƠNG TIỆN VÀ KHUNG NỘI TUYẾN VÀO TRANG WEB</span></a>
+          <a class="item" href="https://himfri1314.github.io/bai7_nhom1/"><span class="marker"></span><span class="label">Bài 7: HTML VÀ CẤU TRÚC TRANG WEB</span></a>
+          <a class="item" href="https://himfri1314.github.io/bai8_nhom1/"><span class="marker"></span><span class="label">Bài 8: ĐỊNH DẠNG VĂN BẢN</span></a>
+          <a class="item" href="https://himfri1314.github.io/bai9_nhom1/"><span class="marker"></span><span class="label">Bài 9: TẠO DANH SÁCH, BẢNG</span></a>
+          <a class="item" href="https://himfri1314.github.io/bai10_nhom1/"><span class="marker"></span><span class="label">Bài 10: TẠO LIÊN KẾT</span></a>
+          <a class="item" href="https://himfri1314.github.io/bai11_nhom1/"><span class="marker"></span><span class="label">Bài 11: CHÈN TỆP ĐA PHƯƠNG TIỆN VÀ KHUNG NỘI TUYẾN VÀO TRANG WEB</span></a>
         </nav>
       </section>
     </main>
