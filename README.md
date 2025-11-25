@@ -44,7 +44,7 @@
 }
       </style>
   <div id="wp-products">
-    <h1 style="text-align:center;text-decorating: none; color: black blue; padding: 0 30px;">THÀNH VIÊN</h1>
+    <h1 style="text-align:center;text-decorating: none; color: #243b9a; padding: 0 30px;">THÀNH VIÊN</h1>
   </div>
   <style>
         /* Tiêu đề */
@@ -87,7 +87,7 @@
     <div class="container">
         <div class="card">
             <img src="Phương Duyên.png" class="avatar">
-            <a href="phuongduyen.html" style="text-decorating: none; color: dark blue; padding: 0 10px;">Nguyễn Ngọc Phương Duyên</a>
+            <a href="https://himfri1314.github.io/_/" style="text-decorating: none; color: dark blue; padding: 0 10px;">Nguyễn Ngọc Phương Duyên</a>
         </div>
         <div class="card">
             <img src="Minh Châu.png" class="avatar">
@@ -101,3 +101,127 @@
             <img src="Quỳnh Như.png" class="avatar">
             <a href="trangchu" style="text-decorating: none; color: dark blue; padding: 0 10px;">Trần Lê Quỳnh Như</a>
         </div>
+    </div>
+  </body>
+<div id="wp-products">
+    <h1 style="text-align:center;text-decorating: none; color: #243b9a; padding: 0 30px;">TÀI LIỆU</h1>
+  </div>
+  <style>
+    :root{
+      --page-bg: #f3f3f4;
+      --card-bg: #ffffff;
+      --accent: #243b9a;
+      --muted-border: #ececec;
+      --container-width: 760px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background: var(--page-bg);
+      color:#222;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+    /* center main column with side gutters */
+    .page-wrap{
+      display:flex;
+      justify-content:center;
+      padding:40px 20px; /* top space like screenshot */
+    }
+    .main{
+      width:100%;
+      max-width: var(--container-width);
+      background: transparent;
+    }
+    /* card-like panel to hold content (subtle border + inner white area) */
+    .panel{
+      background: #fff;
+      border-radius: 6px;
+      padding: 22px 26px 40px;
+      box-shadow: 0 0 0 1px rgba(0,0,0,0.02), 0 6px 18px rgba(19,19,19,0.03);
+    }
+    header.page-header{
+      text-align:center;
+      margin-bottom: 18px;
+    }
+    header .title{
+      display:inline-block;
+      font-family: "Times New Roman", Times, serif; /* giống chữ serif trong ảnh */
+      color: var(--accent);
+      letter-spacing: 4px;
+      font-weight:700;
+      font-size: 36px;
+      padding: 6px 20px;
+      /* optional decorative underline */
+    }
+    /* the list of items */
+    .list{
+      margin: 18px 0 0;
+      display:flex;
+      flex-direction:column;
+      gap:14px;
+    }
+    .item{
+      background: var(--card-bg);
+      border: 1px solid var(--muted-border);
+      border-radius: 6px;
+      padding: 12px 16px;
+      display:flex;
+      align-items:center;
+      gap:12px;
+      min-height:44px;
+      transition: transform .12s ease, box-shadow .12s ease;
+    }
+    .item:hover{
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(35,35,35,0.04);
+    }
+    .item .label{
+      color: var(--accent);
+      font-weight:600;
+      text-decoration: none;
+      font-size: 16px;
+      display:inline-block;
+    }
+    /* small left square like marker (optional) */
+    .marker{
+      width:8px;
+      height:8px;
+      border-radius:2px;
+      background: transparent; /* keep empty to match screenshot, set to var(--accent) if you want */
+      margin-right:8px;
+      flex: 0 0 auto;
+      border: 1px solid rgba(36,59,154,0.15);
+    }
+    /* responsive */
+    @media (max-width:840px){
+      :root{--container-width:640px}
+      header .title{font-size:30px}
+    }
+    @media (max-width:520px){
+      .panel{padding:18px}
+      .item{padding:10px}
+      header .title{font-size:24px; letter-spacing:2px}
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrap">
+    <main class="main">
+      <section class="panel">
+        <header class="page-header">
+          <div class="title">VẬN DỤNG</div>
+        </header>
+        <nav class="list" aria-label="Danh sách bài">
+          <!-- Lặp các item giống screenshot -->
+          <a class="item" href="#"><span class="marker"></span><span class="label">Bài 7: HTML VÀ CẤU TRÚC TRANG WEB</span></a>
+          <a class="item" href="#"><span class="marker"></span><span class="label">Bài 8: ĐỊNH DẠNG VĂN BẢN</span></a>
+          <a class="item" href="#"><span class="marker"></span><span class="label">Bài 9: TẠO DANH SÁCH, BẢNG</span></a>
+          <a class="item" href="#"><span class="marker"></span><span class="label">Bài 10: TẠO LIÊN KẾT</span></a>
+          <a class="item" href="#"><span class="marker"></span><span class="label">Bài 11: CHÈN TỆP ĐA PHƯƠNG TIỆN VÀ KHUNG NỘI TUYẾN VÀO TRANG WEB</span></a>
+        </nav>
+      </section>
+    </main>
+  </div>
+</body>
