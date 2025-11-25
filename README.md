@@ -91,15 +91,15 @@
         </div>
         <div class="card">
             <img src="Minh Châu.png" class="avatar">
-            <a href="trangchu" style="text-decorating: none; color: dark blue; padding: 0 10px;">Phùng Võ Minh Châu</a>
+            <a href="https://himfri1314.github.io/__/" style="text-decorating: none; color: dark blue; padding: 0 10px;">Phùng Võ Minh Châu</a>
         </div>
         <div class="card">
             <img src="Khả Hân.png" class="avatar">
-            <a href="trangchu" style="text-decorating: none; color: dark blue; padding: 0 10px;">Nguyễn Khả Hân</a>
+            <a href="https://himfri1314.github.io/___/" style="text-decorating: none; color: dark blue; padding: 0 10px;">Nguyễn Khả Hân</a>
         </div>
         <div class="card">
             <img src="Quỳnh Như.png" class="avatar">
-            <a href="trangchu" style="text-decorating: none; color: dark blue; padding: 0 10px;">Trần Lê Quỳnh Như</a>
+            <a href="https://himfri1314.github.io/____/" style="text-decorating: none; color: dark blue; padding: 0 10px;">Trần Lê Quỳnh Như</a>
         </div>
     </div>
   </body>
